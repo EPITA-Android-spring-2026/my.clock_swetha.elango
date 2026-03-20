@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import java.text.SimpleDateFormat
 import java.util.*
 
-class MainActivittty : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var timeText: TextView
     private val handler = Handler(Looper.getMainLooper())
