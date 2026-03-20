@@ -1,8 +1,9 @@
-package com.example.myclock
+package com.example.clock
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -12,7 +13,7 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
 
     private lateinit var timeText: TextView
-    private val handler = Handler()
+    private val handler = Handler(Looper.getMainLooper())
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
