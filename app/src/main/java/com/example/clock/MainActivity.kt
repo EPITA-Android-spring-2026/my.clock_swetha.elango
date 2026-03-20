@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import java.text.SimpleDateFormat
 import java.util.*
-
+//mainclass
 class MainActivity : AppCompatActivity() {
 
     private lateinit var timeText: TextView
